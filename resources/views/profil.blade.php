@@ -254,7 +254,7 @@
         <div class="col s12 center-align ">
         <h5>Follow me</h5>
         <ul>
-            <a class="footer-link" href="https://m.facebook.com/profile.php?ref=bookmarks"><i class="fab fa-fw fa-facebook-f"></i></a>
+            <a class="footer-link" href="https://m.facecustomers.com/profile.php?ref=customersmarks"><i class="fab fa-fw fa-facecustomers-f"></i></a>
           <a class="footer-link"
           href="https://mobile.twitter.com/gunawan_wawan43"><i class="fab fa-fw fa-twitter"></i></a><a
           class="footer-link"

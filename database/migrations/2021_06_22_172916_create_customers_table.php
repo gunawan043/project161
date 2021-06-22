@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUjiansTable extends Migration
+class CreateCustomersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,12 @@ class CreateUjiansTable extends Migration
      */
     public function up()
     {
-        Schema::create('ujian', function (Blueprint $table) {
+        Schema::create('customers', function (Blueprint $table) {
             $table->bigIncrements('id');
-            
+            $table->string('name', 50);
+            $table->string('phone', 15);
+            $table->string('email', 50);
+            $table->string('address', 200);
             $table->timestamps();
         });
     }
@@ -27,6 +30,6 @@ class CreateUjiansTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ujian');
+        Schema::dropIfExists('customers');
     }
 }
